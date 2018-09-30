@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<groups>
+  <group name="default">
+    <!--参数形式 {参数名称}-->
+    <sql name="getPerson">
+      select * from person where id = {id} and name = {name} and age = {age}
+    </sql>
+  </group>
+</groups>

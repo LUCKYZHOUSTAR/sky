@@ -1,0 +1,4 @@
+org.springframework.boot.env.PropertySourceLoader=lucky.sky.util.config.UnicodePropertySourceLoader
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+lucky.sky.util.ioc.ServiceLocatorAutoConfig

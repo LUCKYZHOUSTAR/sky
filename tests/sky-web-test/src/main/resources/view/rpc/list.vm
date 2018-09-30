@@ -1,0 +1,21 @@
+#css("/css/bootstrap.css")
+#css("/css/bootstrap-table.min.css")
+
+#js("/js/bootstrap/jquery.js")
+#js("/js/bootstrap/bootstrap.js")
+#js("/js/bootstrap/bootstrap-table.min.js")
+#js("/js/bootstrap/bootstrap-table-zh-CN.min.js")
+#js("/js/rpc/list.js")
+
+<body>
+<h2>Rpc List</h2>
+<form role="form">
+  <div class="form-group"><input type="text" class="form-control" id="name"
+           placeholder="请输入服务名称">
+  </div>
+
+
+  <table class="table" id="mytable">
+  </table>
+</form>
+</body>
